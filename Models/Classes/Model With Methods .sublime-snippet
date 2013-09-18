@@ -12,7 +12,7 @@ class ${1:MODELNAME}(models.Model):
         pass
 
     def save(self):
-        pass
+        super($1, self).save(*args, **kwargs)
 
     @models.permalink
     def get_absolute_url(self):

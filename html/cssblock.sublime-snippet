@@ -1,0 +1,11 @@
+<!-- See http://www.sublimetext.com/docs/snippets for more information -->
+<snippet>
+	<content><![CDATA[
+{% block css %}
+    <link rel="stylesheet" href="{% get_static_prefix %}${1}" type="text/css" media="screen" charset="utf-8">
+{% endblock css %}
+]]>	</content>
+    <tabTrigger>cssblock</tabTrigger>
+    <scope>text.html.django</scope>
+    <description>css block</description>
+</snippet>

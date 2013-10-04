@@ -2,7 +2,7 @@
 <snippet>
 	<content><![CDATA[
 {% block css %}
-    <link rel="stylesheet" href="{% get_static_prefix %}${1}" type="text/css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="{% get_static_prefix %}${1}" type="text/css" media="${2:all}" charset="utf-8">
 {% endblock css %}
 ]]>	</content>
     <tabTrigger>cssblock</tabTrigger>

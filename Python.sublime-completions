@@ -1,0 +1,8 @@
+{
+        "scope": "source.python",
+
+        "completions":
+        [
+                { "trigger": "logdebug", "contents": "logger.debug($0)" }
+        ]
+}

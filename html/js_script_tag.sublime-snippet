@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+<script type="text/javascript" charset="utf-8">
+
+</script>
+]]></content>
+  <tabTrigger>scripttag</tabTrigger>
+  <description></description>
+  <scope>text.html.django</scope>
+</snippet>

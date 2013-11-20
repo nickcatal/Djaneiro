@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+from django.core.urlresolvers import reverse
+]]></content>
+  <tabTrigger>import_reverse</tabTrigger>
+  <description></description>
+  <scope>source.python</scope>
+</snippet>

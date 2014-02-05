@@ -1,5 +1,5 @@
 { "name": "HTML (Django)",
-  "scopeName": "text.html.django",
+  "scopeName": "text.html",
   "fileTypes": ["html", "dhtml"],
   "foldingStartMarker": "({% (block|comment|for|if|ifequal|ifnotequal|spaceless|with|blocktrans) %})",
   "foldingStopMarker": "({% (endblock|endcomment|endfor|endif|endifequal|endifnotequal|endspaceless|endwith|endblocktrans) %})",

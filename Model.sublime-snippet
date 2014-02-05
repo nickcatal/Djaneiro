@@ -3,13 +3,16 @@
     <content><![CDATA[
 class ${1:MODELNAME}(models.Model):
     class Meta:
-        verbose_name = _('$1')
-        verbose_name_plural = _('$1s')
+        pass
+        # verbose_name = _('$1')
+        # verbose_name_plural = _('$1s')
+
+    objects = models.Manager()
 
     def __unicode__(self):
-        pass
+        return u'$1'
     ]]></content>
-    <tabTrigger>Model</tabTrigger>
+    <tabTrigger>model</tabTrigger>
     <scope>source.python</scope>
     <description>Model</description>
 </snippet>

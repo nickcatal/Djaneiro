@@ -1,0 +1,14 @@
+<!-- See http://www.sublimetext.com/docs/snippets for more information -->
+<snippet>
+    <content><![CDATA[
+class ${1:MyModel}Admin(admin.ModelAdmin):
+    ${2:list_display = ('address_id', 'egid', 'rue', 'street_number', 'npa', 'locality', 'is_eligible')}
+    ${3:list_filter = ('npa', 'locality', 'is_eligible')}
+    ${4:search_fields = ('full_address',)}
+
+admin.site.register($1, $0Admin)
+]]></content>
+    <tabTrigger>admin</tabTrigger>
+    <scope>source.python</scope>
+    <description>Model</description>
+</snippet>

@@ -3,7 +3,7 @@
 	<content><![CDATA[
 {# $1 #}
 ]]>	</content>
-    <tabTrigger>icomment</tabTrigger>
+    <tabTrigger>icm</tabTrigger>
     <scope>text.html.django</scope>
-    <description>one line comment</description>
+    <description>one liner comment</description>
 </snippet>

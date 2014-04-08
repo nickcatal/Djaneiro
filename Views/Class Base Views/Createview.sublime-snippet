@@ -1,0 +1,18 @@
+<!-- See http://www.sublimetext.com/docs/snippets for more information -->
+<snippet>
+    <content><![CDATA[
+class $1CreateView(CreateView):
+
+    context_object_name = 'Form'
+    #form_class = $1Form
+    success_url = '/form/'
+
+    def get_template_names(self):
+        return 'form.html'
+
+
+    ]]></content>
+    <tabTrigger>view_cbv_create</tabTrigger>
+    <scope>source.python</scope>
+    <description>View (List)</description>
+</snippet>

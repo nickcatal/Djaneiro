@@ -1,0 +1,16 @@
+<!-- See http://www.sublimetext.com/docs/snippets for more information -->
+<snippet>
+    <content><![CDATA[
+class ${1:MODELNAME}List(ListView):
+    model = $1
+    context_object_name = 'List'
+
+    def get_template_names(self):
+        return 'list.html'
+
+
+    ]]></content>
+    <tabTrigger>view_cbv_list</tabTrigger>
+    <scope>source.python</scope>
+    <description>View (List)</description>
+</snippet>

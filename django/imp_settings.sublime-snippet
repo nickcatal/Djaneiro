@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+from django.conf import settings
+]]></content>
+  <tabTrigger>imp_settings</tabTrigger>
+  <description>django.conf.settings</description>
+  <scope>source.python.django, keyword.control.import.from.python</scope>
+</snippet>

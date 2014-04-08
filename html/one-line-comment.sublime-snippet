@@ -1,0 +1,9 @@
+<!-- See http://www.sublimetext.com/docs/snippets for more information -->
+<snippet>
+	<content><![CDATA[
+{# $1 #}
+]]>	</content>
+    <tabTrigger>icm</tabTrigger>
+    <scope>text.html.django</scope>
+    <description>one liner comment</description>
+</snippet>

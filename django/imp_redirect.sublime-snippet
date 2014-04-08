@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+from django.shortcuts import redirect
+]]></content>
+  <tabTrigger>imp_redirect</tabTrigger>
+  <description></description>
+  <scope>source.python</scope>
+</snippet>

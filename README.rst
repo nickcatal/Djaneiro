@@ -68,7 +68,8 @@ Snippets for Django templates
  tag		     ``{% %}``
  staticu         ``{{ STATIC_URL }}``
  media           ``{{ MEDIA_URL }}``
-=============== ======================================================
+ cssblock        ``{% block css %} {% endblock css %}``
+ =============== ======================================================
 
 Snippets for Django model fields
 ---------------------------------

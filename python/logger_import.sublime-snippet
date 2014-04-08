@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+import logging
+
+logger = logging.getLogger(${1:__name__})
+
+]]></content>
+    <tabTrigger>loggerimport</tabTrigger> -->
+    <scope>source.python</scope>
+</snippet>

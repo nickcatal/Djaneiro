@@ -1,0 +1,9 @@
+<!-- See http://www.sublimetext.com/docs/snippets for more information -->
+<snippet>
+	<content><![CDATA[
+{# Translators: $1 #}
+]]>	</content>
+    <tabTrigger>itransc</tabTrigger>
+    <scope>text.html.django</scope>
+    <description>One line comment for translators</description>
+</snippet>

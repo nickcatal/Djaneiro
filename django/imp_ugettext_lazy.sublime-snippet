@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+from django.utils.translation import ugettext_lazy as _
+]]></content>
+  <tabTrigger>imp_ugettext</tabTrigger>
+  <description>import ugettext_lazy</description>
+  <scope>source.python, keyword.control.import.from.python</scope>
+</snippet>
